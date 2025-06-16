@@ -1,0 +1,16 @@
+{
+  "name": "PII Labeler",
+  "short_name": "PII Labeler",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1677ff",
+  "description": "Annotate, tag, and manage personally identifiable information (PII) in text.",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
