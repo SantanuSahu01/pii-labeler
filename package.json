@@ -1,8 +1,35 @@
 {
-  "name": "manual-data-prepare-for-pii",
-  "private": true,
-  "version": "0.0.0",
+  "name": "pii-labeler",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
+  "author": "Santanu Sahu <santanu.sahu@nutanix.com>",
+  "license": "Apache-2.0",
+  "description": "Annotate, tag, and manage personally identifiable information (PII) in text.",
+  "keywords": [
+    "pii",
+    "labeler",
+    "annotation",
+    "text",
+    "management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SantanuSahu01/pii-labeler.git"
+  },
+  "homepage": "https://pii-labeler.vercel.app",
+  "bugs": {
+    "url": "https://github.com/SantanuSahu01/pii-labeler/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false,
+    "crypto": false
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
